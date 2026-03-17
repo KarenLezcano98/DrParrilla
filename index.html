@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doctor Parrilla Py</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">
+        <img src="img/logo-parrilla.png" alt="logo-parrilla" />
+    </div>
+
+    <div class="top-icons">
+      <a href="#" aria-label="Idioma">🌐</a>
+      <!-- <a href="#" aria-label="Carrito">🛍</a> -->
+      <!-- <a href="#" aria-label="Usuario">👤</a> -->   
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">TIENDA</a></li>
+      <li><a href="#">SERVICIOS</a></li>
+      <li><a href="#">NOSOTROS</a></li>
+      <li><a href="#">CONTACTO</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="featured">
+      <div class="featured-video">
+        <video autoplay muted loop playsinline>
+          <source src="videos/Stadler-720-Untitled-MPEG-4.mp4" type="video/mp4" />
+          Tu navegador no soporta video HTML5.
+        </video>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="section-header">
+        <h2>Productos</h2>
+        <div class="slider-controls">
+          <button class="product-prev" aria-label="Anterior">&#10094;</button>
+          <button class="product-next" aria-label="Siguiente">&#10095;</button>
+        </div>
+      </div>
+
+      <div class="products-slider" id="productsSlider">
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/AsadorCristobalColon/DSC09943-scaled.jpg" alt="Asador Cristobal Colon" />
+          </div>
+          <h3>Asador Cristobal Colon</h3>
+          <p>5.000.000 GS</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/AsadorJosephine/josefina.png" alt="Asador Josephine"/>
+          </div>
+          <h3>Asador Josephine</h3>
+          <p>5.000.000 GS</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/ParrillaHercules/HERCULES.png" alt="Parrilla Hercules" />
+          </div>
+          <h3>Parrilla Hercules</h3>
+          <p>5.000.000 GS</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/ParrillaTipoTambor/parrila-tambor-1-scaled.jpg" alt="Parrilla Tipo Tambor" />
+          </div>
+          <h3>Parrilla Tipo Tambor</h3>
+          <p>5.000.000 GS</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/ParrillaZeus/ZEUS-1.png" alt="Parrilla Zeus" />
+          </div>
+          <h3>Parrilla Zeus</h3>
+          <p>5.000.000 GS</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img src="img/HornoProfesionalLenha/HORNO-CON-CARRO-1.png" alt="Horno Profesional de Leña" />
+          </div>
+          <h3>Horno Profesional de Leña</h3>
+          <p>5.000.000 GS</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="creator-club">
+      <div class="creator-club-header">
+        <h2>EL CLUB DE CREADORES</h2>
+        <button class="creator-arrow" aria-label="Siguiente">&#8250;</button>
+      </div>
+
+      <div class="creator-grid">
+        <article class="creator-card">
+          <div class="creator-card-content">
+            <h3>MISION</h3>
+            <p>
+              Mi misión es crear la mejor educación sobre pizza y hacerla accesible para todos.
+              Calcula, aprende, guarda y comparte tus recetas favoritas. ¡Únete al club y empieza gratis!
+            </p>
+            <a href="#" class="creator-btn">VE AL CLUB</a>
+          </div>
+          <div class="creator-card-image">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80" alt="Miembro del club de creadores" />
+          </div>
+        </article>
+
+        <article class="creator-card">
+          <div class="creator-card-content">
+            <h3>CONOCE A OTROS CREADORES</h3>
+            <p>
+              Conéctate con otros creadores: comparte tus creaciones, aprende unos de otros y obtén soporte.
+              Deja tus preguntas en los comentarios y otros creadores, junto con el equipo Maker,
+              estarán listos para ayudarte.
+            </p>
+            <a href="#" class="creator-btn">VE AL CLUB</a>
+          </div>
+          <div class="creator-card-image">
+            <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80" alt="Grupo de creadores compartiendo" />
+          </div>
+        </article>
+
+        <article class="creator-card">
+          <div class="creator-card-content">
+            <h3>PAGUE MENOS, GANE MÁS</h3>
+            <p>
+              ¡Únete al Maker Club y obtén 7 días gratis! Además, disfruta de un 5% de descuento en tu pedido.
+            </p>
+            <a href="#" class="creator-btn">ÚNETE AL CLUB</a>
+          </div>
+          <div class="creator-card-image">
+            <img src="https://images.unsplash.com/photo-1520072959219-c595dc870360?auto=format&fit=crop&w=900&q=80" alt="Comida artesanal" />
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-top-line"></div>
+
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>OBTENER APOYO</h4>
+        <ul>
+          <li><a href="#">SEGUIR MI PEDIDO</a></li>
+          <li><a href="#">DEVOLVER O REEMPLAZAR</a></li>
+          <li><a href="#">COSTO DE ENVÍO E INFORMACIÓN</a></li>
+          <li><a href="#">FRECUENTES</a></li>
+          <li><a href="#">CONTÁCTENOS</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>EL CLUB DE CREADORES</h4>
+        <ul>
+          <li><a href="#">ÚNETE AL CLUB</a></li>
+          <li><a href="#">QUÉ SACAS</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>SOBRE STADLER HECHO</h4>
+        <ul>
+          <li><a href="#">PUBLICACIONES</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>CONDICIONES GENERALES</h4>
+        <ul>
+          <li><a href="#">CONDICIONES GENERALES</a></li>
+          <li><a href="#">POLÍTICA DE PRIVACIDAD</a></li>
+          <li><a href="#">RENUNCIA DE RESPONSABILIDAD</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-language">
+        <a href="#">🌐 IDIOMA</a>
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook">f</a>
+      <a href="#" aria-label="Instagram">◎</a>
+      <a href="#" aria-label="YouTube">▶</a>
+    </div>
+
+    <div class="footer-bottom-line"></div>
+  </footer>
+
+  <div class="whatsapp-widget" id="whatsappWidget">
+    <div class="whatsapp-popup" id="whatsappPopup">
+      <button class="whatsapp-popup-close" id="whatsappClose" aria-label="Cerrar">×</button>
+
+      <div class="whatsapp-popup-header">
+        <div class="whatsapp-popup-icon">💬</div>
+        <div>
+          <h4>Comenzar una conversación</h4>
+          <p>¡Hola! Haz clic y chatea con nosotros por WhatsApp.</p>
+        </div>
+      </div>
+
+      <a
+        class="whatsapp-popup-card"
+        href="https://api.whatsapp.com/send?phone=595994389932"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="whatsapp-popup-avatar">🟢</div>
+        <div class="whatsapp-popup-text">
+          <strong>Doctor Parrilla</strong>
+          <span>Te responderemos por WhatsApp</span>
+        </div>
+        <div class="whatsapp-popup-arrow">↗</div>
+      </a>
+    </div>
+
+    <a
+      href="https://api.whatsapp.com/send?phone=595994389932"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-button"
+      id="whatsappButton"
+      aria-label="Abrir WhatsApp"
+    >
+      <span class="whatsapp-button-icon">✆</span>
+    </a>
+
+    <button class="whatsapp-teaser" id="whatsappTeaser" type="button">
+      <span>¿Necesitas ayuda?</span>
+      <strong>Chatea con nosotros</strong>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
